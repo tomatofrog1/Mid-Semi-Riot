@@ -1,0 +1,11 @@
+.btn{
+    background-color: transparent;
+    padding: 0.8rem 2rem;
+    
+    &.bg--red{
+        background-color: $clr-red;
+        color: $clr-dark;
+        border-radius: 3rem;
+        font-weight: 500;
+    }
+}
