@@ -1,0 +1,70 @@
+/*breakpoints*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #111;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-family: MarkPro;
+}
+
+@font-face {
+  font-family: MarkPro;
+  src: url(../fonts/Mark\ Pro\ Bold.ttf);
+}
+.container {
+  max-width: 170rem;
+  width: 100%;
+  padding: 1.5rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: MarkPro;
+  font-weight: 800;
+}
+
+.header {
+  padding: 0 3rem;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav .right {
+  display: flex;
+}
+.header__nav .left {
+  display: flex;
+}
+.header__nav .left .search {
+  border: #111 1px solid;
+  border-radius: 3rem;
+  padding: 0.3rem 2rem;
+}
+.header__nav .left .search input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #f9f9f9;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */
