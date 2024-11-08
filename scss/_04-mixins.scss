@@ -1,5 +1,5 @@
 @mixin mediaQuery($width: $break-sm) {
-    @media screen and (min-width: $width) {
+    @media screen and (max-width: $width) {
       @content;
     }
   }
@@ -19,4 +19,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  @mixin mediaQuerymin($width: $break-sm) {
+    @media screen and (min-width: $width) {
+      @content;
+    }
   }
