@@ -1,12 +1,12 @@
 .footer{
     background-color: $clr-gray;
     height: 90vh;
-    @include mediaQuery($break-lg){
-        height: 50rem;
+    @include mediaQuerymin($break-lg){
+        height: 20rem;
     }
     &__wrapper{
         width: 44rem;
-        @include mediaQuery($break-lg){
+        @include mediaQuerymin($break-lg){
             width: 80vw;
 
         }
@@ -22,9 +22,9 @@
         }
     }
     .footNav{
-        @include mediaQuery($break-lg){
+        @include mediaQuerymin($break-lg){
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
         }
     }
@@ -35,10 +35,11 @@
 
     .links{
         display: flex;
+        
         flex-direction: column;
         gap: 2rem;
         margin: 3rem 0rem;
-        @include mediaQuery($break-lg){
+        @include mediaQuerymin($break-lg){
             flex-direction: row; 
         }
         a{
@@ -70,7 +71,7 @@
         border-top: 1px solid $clr-grey-text;
         border-bottom: 1px solid $clr-grey-text;
         padding: 2rem 0;
-        @include mediaQuery($break-lg){
+        @include mediaQuerymin($break-lg){
             border: none;
             flex-direction: row;
             gap: 1rem;
@@ -85,7 +86,7 @@
         }
         span{
             display: none;
-            @include mediaQuery($break-lg){
+            @include mediaQuerymin($break-lg){
                 display: block;
                 width: 1px;
                 height: 2rem;
@@ -94,7 +95,7 @@
         }
     }
     .bottom{
-        @include mediaQuery($break-lg){
+        @include mediaQuerymin($break-lg){
             display: flex;
             justify-content: space-between;
             align-items: center;
